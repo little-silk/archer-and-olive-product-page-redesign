@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Project #3 Pt. 5: Code Your Site</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <header>
+    <img src="https://i.imgur.com/RfE9IFC.png" alt="logo">
+    <p>Shop</p>
+    <p>About</p>
+    <p>Contact Us</p>
+    <svg width="69" height="57" viewBox="0 0 69 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 3H10.3316L13.7096 14.0959M64.0187 42.3904H22.3235L17.8758 27.7808M66.4171 27.7808H17.8758M17.8758 27.7808L13.7096 14.0959M69 14.0959H13.7096" stroke="white" stroke-width="5" />
+      <ellipse cx="26.5669" cy="52.1918" rx="4.79679" ry="4.80822" fill="white" />
+      <ellipse cx="57.9305" cy="52.1918" rx="4.79679" ry="4.80822" fill="white" />
+    </svg>
+  </header>
+  <div class="productpage">
+    <img src="https://cdn.shopify.com/s/files/1/1201/4358/products/moon-1_7a37fae5-d785-4b6f-9b5f-c0dd5c874282.jpg?v=1631288793" alt="black journal with gold foil crescent moon" id="product">
+    <h1>Crescent Moon Journal</h1>
+    <p class="description">Designed with quality in mind, these journals have ultra thick paper, allowing you to use a variety of pens and paints without any ghosting or bleeding. The cover is black linen with a gold foil moon and star design stamped on front.
+
+      These journals are perfect for managing your class schedule, journaling for mental health, or even planning
+      your day.</p>
+    <form>
+      <div class="colors">
+        <p class="selection">Paper color</p>
+        <div class="paper">
+          <img src="https://i.imgur.com/oGw9xea.jpg" alt="white paper">
+          <img src="https://i.imgur.com/9GDgC04.jpg" alt="black paper2">
+          <img src="https://i.imgur.com/HWI84dZ.jpg" alt="kraft paper">
+        </div>
+      </div>
+      <div class="options">
+        <div class="size">
+          <label for="dropdown">Size</label>
+          <select id="dropdown">
+            <option value="1">A5</option>
+            <option value="2">Travelers</option>
+            <option value="3">8x8</option>
+          </select>
+        </div>
+        <div class="amount">
+          <label for="number">Quantity</label>
+          <input type="number" id="quantity" name="tentacles" min="1" max="10">
+        </div>
+      </div>
+      <button type="button" id="main">Add to Cart!</button>
+    </form>
+
+    <p class="price">$30</p>
+    <p class="shipping">Get it by Tuesday</p>
+  </div>
+
+  <div class="features">
+    <div class="container">
+      <h2>Features</h2>
+      <div class="cards">
+        <div class="card1">
+          <svg width="103" height="104" viewBox="0 0 103 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <mask id="path-1-inside-1_38_171" fill="white">
+              <rect width="20.2833" height="20.3349" rx="3" />
+            </mask>
+            <rect width="20.2833" height="20.3349" rx="3" stroke="white" stroke-width="10" mask="url(#path-1-inside-1_38_171)" />
+            <mask id="path-2-inside-2_38_171" fill="white">
+              <rect x="82.2007" width="20.2833" height="20.3349" rx="3" />
+            </mask>
+            <rect x="82.2007" width="20.2833" height="20.3349" rx="3" stroke="white" stroke-width="10" mask="url(#path-2-inside-2_38_171)" />
+            <mask id="path-3-inside-3_38_171" fill="white">
+              <rect x="82.2007" y="82.7665" width="20.2833" height="20.3349" rx="3" />
+            </mask>
+            <rect x="82.2007" y="82.7665" width="20.2833" height="20.3349" rx="3" stroke="white" stroke-width="10" mask="url(#path-3-inside-3_38_171)" />
+            <mask id="path-4-inside-4_38_171" fill="white">
+              <rect x="33.8054" y="34.2482" width="14.2339" height="14.2701" rx="2" />
+            </mask>
+            <rect x="33.8054" y="34.2482" width="14.2339" height="14.2701" rx="2" stroke="white" stroke-width="6" mask="url(#path-4-inside-4_38_171)" />
+            <mask id="path-5-inside-5_38_171" fill="white">
+              <rect y="82.7665" width="20.2833" height="20.3349" rx="3" />
+            </mask>
+            <rect y="82.7665" width="20.2833" height="20.3349" rx="3" stroke="white" stroke-width="10" mask="url(#path-5-inside-5_38_171)" />
+            <line x1="11.0403" y1="19.2646" x2="11.0403" y2="84.5503" stroke="white" stroke-width="5" />
+            <line x1="94.6645" y1="19.2646" x2="94.6645" y2="84.5503" stroke="white" stroke-width="5" />
+            <line x1="40.9991" y1="46.7346" x2="40.9991" y2="94.8961" stroke="white" stroke-width="3" />
+            <line x1="45.6857" y1="41.7162" x2="93.7251" y2="41.7162" stroke="white" stroke-width="3" />
+            <line x1="17.7923" y1="92.3961" x2="84.6916" y2="92.3961" stroke="white" stroke-width="5" />
+            <line x1="17.7923" y1="8.91608" x2="84.6916" y2="8.91608" stroke="white" stroke-width="5" />
+            <path d="M27.2223 28.1834V26.6834H25.7223V28.1834H27.2223ZM28.7223 85.3084C28.7223 84.48 28.0507 83.8084 27.2223 83.8084C26.3939 83.8084 25.7223 84.48 25.7223 85.3084H28.7223ZM25.7223 68.987C25.7223 69.8154 26.3939 70.487 27.2223 70.487C28.0507 70.487 28.7223 69.8154 28.7223 68.987H25.7223ZM28.7223 52.6656C28.7223 51.8371 28.0507 51.1656 27.2223 51.1656C26.3939 51.1656 25.7223 51.8371 25.7223 52.6656H28.7223ZM25.7223 36.3441C25.7223 37.1726 26.3939 37.8441 27.2223 37.8441C28.0507 37.8441 28.7223 37.1726 28.7223 36.3441H25.7223ZM35.5847 29.6834C36.4132 29.6834 37.0847 29.0119 37.0847 28.1834C37.0847 27.355 36.4132 26.6834 35.5847 26.6834V29.6834ZM52.3096 26.6834C51.4811 26.6834 50.8096 27.355 50.8096 28.1834C50.8096 29.0119 51.4811 29.6834 52.3096 29.6834V26.6834ZM69.0344 29.6834C69.8628 29.6834 70.5344 29.0119 70.5344 28.1834C70.5344 27.355 69.8628 26.6834 69.0344 26.6834V29.6834ZM85.7592 26.6834C84.9308 26.6834 84.2592 27.355 84.2592 28.1834C84.2592 29.0119 84.9308 29.6834 85.7592 29.6834V26.6834ZM28.7223 93.4691V85.3084H25.7223V93.4691H28.7223ZM28.7223 68.987V52.6656H25.7223V68.987H28.7223ZM28.7223 36.3441V28.1834H25.7223V36.3441H28.7223ZM27.2223 29.6834H35.5847V26.6834H27.2223V29.6834ZM52.3096 29.6834H69.0344V26.6834H52.3096V29.6834ZM85.7592 29.6834H94.1216V26.6834H85.7592V29.6834Z" fill="white" />
+            <path d="M53.5029 51.1713C52.6756 51.1713 52.0048 51.8438 52.0048 52.6732L52.0048 66.1904C52.0048 67.0199 52.6756 67.6923 53.5029 67.6923C54.3303 67.6923 55.001 67.0199 55.001 66.1904L55.001 54.1752L66.9858 54.1752C67.8132 54.1752 68.4839 53.5027 68.4839 52.6732C68.4839 51.8438 67.8132 51.1713 66.9858 51.1713L53.5029 51.1713ZM80.1915 80.9316C81.0189 80.9316 81.6896 80.2591 81.6896 79.4297L81.6896 65.9125C81.6896 65.0831 81.0189 64.4106 80.1915 64.4106C79.3641 64.4106 78.6934 65.0831 78.6934 65.9125L78.6934 77.9278L66.7086 77.9278C65.8813 77.9278 65.2106 78.6002 65.2106 79.4297C65.2106 80.2591 65.8813 80.9316 66.7086 80.9316L80.1915 80.9316ZM52.4436 53.7353L79.1322 80.4917L81.2508 78.3677L54.5622 51.6112L52.4436 53.7353Z" fill="white" />
+          </svg>
+          <p>(A5) 5.75″ x 8.25″</p>
+        </div>
+        <div class="card1">
+          <svg width="94" height="103" viewBox="0 0 94 103" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2.5" y="24.9118" width="65.6796" height="75.5882" rx="7.5" stroke="white" stroke-width="5" />
+            <path d="M10.0129 13H73.6311C76.3925 13 78.6311 15.2386 78.6311 18V88" stroke="white" stroke-width="5" stroke-linecap="round" />
+            <path d="M22.3819 3H86C88.7614 3 91 5.23858 91 8V78" stroke="white" stroke-width="5" stroke-linecap="round" />
+          </svg>
+          <p>160 pages</p>
+        </div>
+        <div class="card1">
+          <svg width="119" height="106" viewBox="0 0 119 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M103.987 25.1777L61.9127 3.18484C60.4893 2.4408 58.7951 2.42586 57.3588 3.1447L13.4116 25.1389C9.78032 26.9562 9.71525 32.1153 13.2995 34.0236L57.2443 57.4204C58.7417 58.2177 60.5413 58.2013 62.024 57.3768L104.101 33.9787C107.579 32.0449 107.514 27.021 103.987 25.1777Z" stroke="white" stroke-width="5" stroke-linecap="round" />
+            <path d="M116 43.7937L62.2674 72.3659C60.8097 73.1411 59.0633 73.1466 57.6007 72.3809L3 43.7937" stroke="white" stroke-width="5" stroke-linecap="round" />
+            <path d="M116 58.9914L62.2674 87.5636C60.8097 88.3388 59.0633 88.3443 57.6007 87.5786L3 58.9914" stroke="white" stroke-width="5" stroke-linecap="round" />
+            <path d="M116 74.1891L62.2674 102.761C60.8097 103.536 59.0633 103.542 57.6007 102.776L3 74.1891" stroke="white" stroke-width="5" stroke-linecap="round" />
+          </svg>
+          <p>160GSM pages</p>
+        </div>
+        <div class="card1">
+          <svg width="106" height="155" viewBox="0 0 106 155" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M96.9 146L90.15 153.95C87.35 151.75 84.4 149.45 81.3 147.05C78.3 144.55 75.25 142 72.15 139.4C67.85 144 62.8 147.5 57 149.9C51.3 152.3 45.15 153.5 38.55 153.5C28.15 153.5 19.75 150.8 13.35 145.4C7.05 139.9 3.9 132.7 3.9 123.8C3.9 117.8 5.45 112.55 8.55 108.05C11.75 103.55 17 99.3 24.3 95.3L27.15 93.65C23.65 89.25 21.15 85.25 19.65 81.65C18.25 77.95 17.55 74.1 17.55 70.1C17.55 63.1 19.95 57.25 24.75 52.55C29.65 47.85 35.7 45.5 42.9 45.5C49.8 45.5 55.45 47.55 59.85 51.65C64.35 55.65 66.6 60.8 66.6 67.1C66.6 72 65.2 76.4 62.4 80.3C59.7 84.2 55.5 87.85 49.8 91.25L42.3 95.75C46.4 100.35 50.9 105.1 55.8 110C60.7 114.8 65.7 119.5 70.8 124.1C73.3 120.1 75.35 115.7 76.95 110.9C78.65 106.1 80 101.1 81 95.9L91.2 97.55C89.9 103.95 88.2 109.95 86.1 115.55C84 121.15 81.4 126.25 78.3 130.85C81.5 133.65 84.7 136.35 87.9 138.95C91.1 141.45 94.1 143.8 96.9 146ZM28.05 69.95C28.05 73.05 28.65 76.05 29.85 78.95C31.15 81.75 33.35 85.05 36.45 88.85L45 83.9C48.7 81.7 51.45 79.25 53.25 76.55C55.15 73.85 56.1 70.8 56.1 67.4C56.1 63.7 54.75 60.65 52.05 58.25C49.45 55.75 46.3 54.5 42.6 54.5C38.4 54.5 34.9 55.95 32.1 58.85C29.4 61.65 28.05 65.35 28.05 69.95ZM14.4 123.5C14.4 129.7 16.65 134.7 21.15 138.5C25.75 142.2 31.75 144.05 39.15 144.05C44.05 144.05 48.7 143.1 53.1 141.2C57.5 139.3 61.4 136.5 64.8 132.8C59.1 127.6 53.45 122.25 47.85 116.75C42.35 111.25 37.4 105.95 33 100.85L29.55 102.8C24.15 105.9 20.25 109.05 17.85 112.25C15.55 115.45 14.4 119.2 14.4 123.5Z" fill="white" />
+          </svg>
+          <p>Ampersand bookmark</p>
+        </div>
+        <div class="card1">
+          <svg width="108" height="108" viewBox="0 0 108 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M46.4495 35.499C38.1119 25.5346 21.1372 29.6339 14.6546 0C-18.6835 41.9814 12.4939 79.0239 32.8671 75.937C34.1019 63.2808 18.6677 47.5378 14.6546 41.9814C26.3848 47.2291 45.5233 71.3067 37.4976 88.5932C30.0891 101.867 18.0503 100.632 21.4459 105.88C24.8414 111.127 41.5105 98.4711 43.3626 92.2974C46.4495 93.2235 53.5493 92.9148 61.8839 90.4453C65.588 95.0756 80.0961 95.0756 84.1092 87.9758C87.9549 81.1721 88.1222 68.8372 107.261 65.4416C81.9485 41.6727 52.3147 66.6764 55.7101 79.0239C60.0317 79.0239 75.1574 71.6154 80.4049 68.2198C74.54 80.2586 55.0927 86.741 45.5233 86.4323C47.0668 84.5802 47.0668 76.863 45.5233 70.6893C55.0927 63.5895 59.1058 50.6247 46.4495 35.499Z" fill="white" />
+          </svg>
+          <p>Eco-friendly pacckaging</p>
+        </div>
+        <div class="card1">
+          <svg width="96" height="108" viewBox="0 0 96 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="89.719" cy="6.12766" rx="6.12766" ry="6.08264" transform="rotate(90 89.719 6.12766)" fill="white" />
+            <ellipse cx="89.719" cy="63.5745" rx="6.12766" ry="6.08264" transform="rotate(90 89.719 63.5745)" fill="white" />
+            <ellipse cx="39.5371" cy="6.12766" rx="6.12766" ry="6.08264" transform="rotate(90 39.5371 6.12766)" fill="white" />
+            <ellipse cx="39.5371" cy="63.5745" rx="6.12766" ry="6.08264" transform="rotate(90 39.5371 63.5745)" fill="white" />
+            <ellipse cx="89.719" cy="25.2766" rx="6.12766" ry="6.08264" transform="rotate(90 89.719 25.2766)" fill="white" />
+            <ellipse cx="89.719" cy="82.7234" rx="6.12766" ry="6.08264" transform="rotate(90 89.719 82.7234)" fill="white" />
+            <ellipse cx="39.5371" cy="25.2766" rx="6.12766" ry="6.08264" transform="rotate(90 39.5371 25.2766)" fill="white" />
+            <ellipse cx="39.5371" cy="82.7234" rx="6.12766" ry="6.08264" transform="rotate(90 39.5371 82.7234)" fill="white" />
+            <ellipse cx="89.719" cy="44.4255" rx="6.12766" ry="6.08264" transform="rotate(90 89.719 44.4255)" fill="white" />
+            <ellipse cx="89.719" cy="101.872" rx="6.12766" ry="6.08264" transform="rotate(90 89.719 101.872)" fill="white" />
+            <ellipse cx="39.5371" cy="44.4255" rx="6.12766" ry="6.08264" transform="rotate(90 39.5371 44.4255)" fill="white" />
+            <ellipse cx="39.5371" cy="101.872" rx="6.12766" ry="6.08264" transform="rotate(90 39.5371 101.872)" fill="white" />
+            <ellipse cx="72.9917" cy="44.4255" rx="6.12766" ry="6.08264" transform="rotate(90 72.9917 44.4255)" fill="white" />
+            <ellipse cx="72.9917" cy="101.872" rx="6.12767" ry="6.08264" transform="rotate(90 72.9917 101.872)" fill="white" />
+            <ellipse cx="22.8099" cy="44.4255" rx="6.12766" ry="6.08265" transform="rotate(90 22.8099 44.4255)" fill="white" />
+            <ellipse cx="22.8099" cy="101.872" rx="6.12766" ry="6.08265" transform="rotate(90 22.8099 101.872)" fill="white" />
+            <ellipse cx="72.9917" cy="25.2766" rx="6.12766" ry="6.08264" transform="rotate(90 72.9917 25.2766)" fill="white" />
+            <ellipse cx="72.9917" cy="82.7234" rx="6.12766" ry="6.08264" transform="rotate(90 72.9917 82.7234)" fill="white" />
+            <ellipse cx="22.8099" cy="25.2766" rx="6.12766" ry="6.08265" transform="rotate(90 22.8099 25.2766)" fill="white" />
+            <ellipse cx="22.8099" cy="82.7234" rx="6.12765" ry="6.08264" transform="rotate(90 22.8099 82.7234)" fill="white" />
+            <ellipse cx="72.9917" cy="6.12766" rx="6.12766" ry="6.08265" transform="rotate(90 72.9917 6.12766)" fill="white" />
+            <ellipse cx="72.9917" cy="63.5745" rx="6.12766" ry="6.08264" transform="rotate(90 72.9917 63.5745)" fill="white" />
+            <ellipse cx="22.8099" cy="6.12766" rx="6.12766" ry="6.08265" transform="rotate(90 22.8099 6.12766)" fill="white" />
+            <ellipse cx="22.8099" cy="63.5745" rx="6.12766" ry="6.08265" transform="rotate(90 22.8099 63.5745)" fill="white" />
+            <ellipse cx="56.2645" cy="6.12766" rx="6.12766" ry="6.08264" transform="rotate(90 56.2645 6.12766)" fill="white" />
+            <ellipse cx="56.2645" cy="63.5745" rx="6.12766" ry="6.08264" transform="rotate(90 56.2645 63.5745)" fill="white" />
+            <ellipse cx="6.08264" cy="6.12766" rx="6.12766" ry="6.08264" transform="rotate(90 6.08264 6.12766)" fill="white" />
+            <ellipse cx="6.08264" cy="63.5745" rx="6.12766" ry="6.08265" transform="rotate(90 6.08264 63.5745)" fill="white" />
+            <ellipse cx="56.2645" cy="25.2766" rx="6.12766" ry="6.08265" transform="rotate(90 56.2645 25.2766)" fill="white" />
+            <ellipse cx="56.2645" cy="82.7234" rx="6.12766" ry="6.08264" transform="rotate(90 56.2645 82.7234)" fill="white" />
+            <ellipse cx="6.08264" cy="25.2766" rx="6.12766" ry="6.08265" transform="rotate(90 6.08264 25.2766)" fill="white" />
+            <ellipse cx="6.08264" cy="82.7234" rx="6.12765" ry="6.08264" transform="rotate(90 6.08264 82.7234)" fill="white" />
+            <ellipse cx="56.2645" cy="44.4255" rx="6.12766" ry="6.08264" transform="rotate(90 56.2645 44.4255)" fill="white" />
+            <ellipse cx="56.2645" cy="101.872" rx="6.12766" ry="6.08264" transform="rotate(90 56.2645 101.872)" fill="white" />
+            <ellipse cx="6.08264" cy="44.4255" rx="6.12766" ry="6.08265" transform="rotate(90 6.08264 44.4255)" fill="white" />
+            <ellipse cx="6.08264" cy="101.872" rx="6.12766" ry="6.08264" transform="rotate(90 6.08264 101.872)" fill="white" />
+          </svg>
+          <p>0.5cm dot grid</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="reviews">
+    <h2>Reviews</h2>
+    <hr>
+    <div class="container2">
+      <img src="https://i.imgur.com/FsuuAks.png" alt="Female wearing a hat">
+      <div class="review1">
+        <h3>Heidi Lee</h3>
+        <hr>
+        <p>"This journal is everything I was expecting and more. Love the thicker paper and the bright white. Looking forward to create in this inspiring journal."</p>
+        <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+      </div>
+      <img src="https://i.imgur.com/8A0tl0r.png" alt="Male profile against a pink background">
+      <div class="review1">
+        <h3>James Smith</h3>
+        <hr>
+        <p>"This journal is just lovely.. it is perfect to customize my schedule for college classes.. it really was a delight to open, thank you!"</p>
+        <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+      </div>
+      <img src="https://i.imgur.com/YTcxQbq.png" alt="Female wearing a green top">
+      <div class="review1">
+        <h3>Angel Veverka</h3>
+        <hr>
+        <p>"Super fast delivery and the packaging was beautiful. A lot of thought has gone into this. Great product for mental health. Thank you"</p>
+        <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="otherproducts">
+    <h2>Complete Your Journaling Supplies</h2>
+    <div class="other">
+      <div class="card">
+        <img src="https://cdn.shopify.com/s/files/1/1201/4358/products/Fallwashiset_HarvestMemories.jpg?v=1632836030" alt="harvest memories washi tape">
+        <h3>Harvest Memories Washi</h3>
+        <p>Four rolls of assorted 15mm tape</p>
+        <form>
+          <button type="button">Add to Cart!</button>
+        </form>
+      </div>
+      <div class="card">
+        <img src="https://cdn.shopify.com/s/files/1/1201/4358/products/AcrylographPen_SpellbindCollection_01.jpg?v=1632502371" alt="harvest memories washi tape">
+        <h3>Spellbind Acrylographs</h3>
+        <p>Ten water-based acrylic ink pens</p>
+        <form>
+          <button type="button">Add to Cart!</button>
+        </form>
+      </div>
+      <div class="card">
+        <img src="https://cdn.shopify.com/s/files/1/1201/4358/products/Fallsticker_ST310.jpg?v=1632500640" alt="harvest memories washi tape">
+        <h3>Magic of Fall Stickers</h3>
+        <p>Assorted matte sticker sheets</p>
+        <form>
+          <button type="button">Add to Cart!</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <img src="https://i.imgur.com/RfE9IFC.png" alt="logo">
+    <form>
+      <div class="subscribe">
+        <label for="email">Subscribe now</label>
+
+        <input type="email" id="email" pattern=".+@globex\.com" size="30" required>
+      </div>
+      <div class="submit">
+        <input type="submit" id="submit" value="Sign up!">
+      </div>
+    </form>
+
+    <div class="media">
+      <div class="handles">
+        <p>Follow Us</p>
+        <hr>
+        <svg width="36" height="25" viewBox="0 0 36 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M18.0223 25H17.9863C17.8748 25 6.71863 24.9786 3.90395 24.2203C2.35619 23.8067 1.14746 22.6069 0.731371 21.0712C0.22523 18.2386 -0.0191834 15.366 0.00117409 12.4893C-0.0119027 9.60786 0.239124 6.73121 0.751155 3.89488C1.17867 2.35782 2.3821 1.15249 3.92733 0.713674C6.66467 0 17.5133 0 17.9737 0H18.0115C18.1248 0 29.3098 0.0214102 32.0957 0.779689C33.6402 1.19542 34.8465 2.39276 35.2647 3.92521C35.7869 6.76838 36.032 9.65483 35.9967 12.5446C36.0093 15.4226 35.7576 18.2957 35.2449 21.1283C34.8234 22.6621 33.6139 23.8592 32.0669 24.2738C29.3332 24.9929 18.4827 25 18.0223 25ZM14.4253 7.14566L14.4163 17.8508L23.7901 12.4982L14.4253 7.14566Z" fill="white" />
+        </svg>
+        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 12.5752C0.00145438 18.7623 4.47285 24.0303 10.5459 25V16.21H7.37474V12.5752H10.5496V9.8083C10.4077 8.4972 10.8528 7.19052 11.7641 6.24264C12.6755 5.29477 13.9587 4.80394 15.2657 4.90328C16.2039 4.91853 17.1396 5.0026 18.0656 5.15482V8.2475H16.4857C15.9418 8.17581 15.3949 8.35657 14.9992 8.73884C14.6035 9.12111 14.4017 9.66352 14.4507 10.2133V12.5752H17.9144L17.3606 16.2112H14.4507V25C21.0186 23.9556 25.6242 17.9202 24.931 11.2661C24.2378 4.61196 18.4885 -0.331333 11.8481 0.0173622C5.20777 0.366057 0.00105556 5.88467 0 12.5752Z" fill="white" />
+        </svg>
+        <svg width="31" height="25" viewBox="0 0 31 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M27.3484 3.94197C28.6769 3.15347 29.6709 1.91189 30.1449 0.449048C28.8966 1.18442 27.5307 1.70244 26.1065 1.9807C24.1319 -0.0930951 21.0033 -0.597762 18.469 0.748692C15.9346 2.09515 14.6219 4.95938 15.2644 7.74094C10.151 7.48606 5.38694 5.08801 2.15776 1.14351C0.472513 4.0294 1.33371 7.71855 4.12582 9.57421C3.11617 9.54198 2.1289 9.27058 1.24634 8.78263C1.24634 8.80912 1.24634 8.8356 1.24634 8.86209C1.24693 11.8682 3.38094 14.4577 6.34879 15.0534C5.41228 15.3064 4.42994 15.3436 3.47672 15.1623C4.31137 17.7331 6.69787 19.4943 9.41797 19.5468C7.16511 21.3023 4.38291 22.2543 1.51903 22.2497C1.01141 22.2504 0.504184 22.2214 0 22.1629C2.90822 24.0183 6.29302 25.003 9.74993 24.9996C14.5593 25.0324 19.1813 23.15 22.582 19.7735C25.9827 16.3969 27.8783 11.808 27.8449 7.03323C27.8449 6.75956 27.8384 6.48737 27.8256 6.21664C29.0711 5.32296 30.1461 4.21586 31 2.94736C29.8396 3.458 28.6088 3.79326 27.3484 3.94197Z" fill="white" />
+        </svg>
+        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12.4931 25C9.07829 25 8.67574 24.982 7.34314 24.9238C6.30396 24.8896 5.27823 24.6787 4.31011 24.3C2.63508 23.6491 1.31058 22.326 0.659356 20.6531C0.294706 19.6829 0.0980259 18.6578 0.0777346 17.6217C0 16.2938 0 15.8586 0 12.475C0 9.0555 0.0180455 8.6563 0.0777346 7.33256C0.0984698 6.29785 0.295143 5.27418 0.659356 4.30528C1.30987 2.6302 2.63652 1.30596 4.31427 0.657019C5.28407 0.291365 6.30947 0.0944559 7.34592 0.0748503C8.67157 0 9.10744 0 12.4931 0C15.9356 0 16.3312 0.0180195 17.643 0.0748503C18.6821 0.0946255 19.7102 0.291514 20.683 0.657019C22.3602 1.3067 23.6866 2.63068 24.3379 4.30528C24.7087 5.2883 24.9064 6.32797 24.9223 7.3783C25 8.7062 25 9.14005 25 12.5222C25 15.9043 24.9806 16.3479 24.9223 17.6605C24.9016 18.6976 24.7045 19.7236 24.3393 20.6947C23.6864 22.3687 22.3599 23.6923 20.683 24.343C19.7116 24.7064 18.6856 24.9028 17.6485 24.9238C16.3229 25 15.8884 25 12.4931 25ZM12.4459 2.19422C9.05053 2.19422 8.69795 2.21086 7.37229 2.27046C6.58104 2.28093 5.79744 2.42673 5.05552 2.70154C3.95996 3.12016 3.09304 3.9823 2.66935 5.07457C2.39202 5.82349 2.24599 6.61452 2.23765 7.41295C2.16408 8.7561 2.16408 9.10817 2.16408 12.475C2.16408 15.8017 2.17657 16.2051 2.23765 17.5399C2.25007 18.3303 2.39602 19.1129 2.66935 19.8547C3.09366 20.9463 3.96043 21.8078 5.05552 22.2264C5.79694 22.503 6.58086 22.6489 7.37229 22.6575C8.71599 22.7351 9.06996 22.7351 12.4459 22.7351C15.8509 22.7351 16.2035 22.7185 17.518 22.6575C18.3098 22.6478 19.094 22.502 19.8362 22.2264C20.9251 21.8041 21.7864 20.9446 22.2099 19.8575C22.4867 19.108 22.6327 18.3166 22.6416 17.5177H22.6569C22.7165 16.1926 22.7165 15.8392 22.7165 12.4529C22.7165 9.06659 22.7013 8.71036 22.6416 7.38661C22.6291 6.59715 22.4832 5.81547 22.2099 5.07457C21.7874 3.98588 20.926 3.12471 19.8362 2.70154C19.0942 2.42535 18.3099 2.2795 17.518 2.27046C16.1757 2.19422 15.8245 2.19422 12.4459 2.19422ZM12.4931 18.8775C9.89726 18.8792 7.55611 17.3192 6.56144 14.9249C5.56678 12.5307 6.11453 9.77397 7.94924 7.94031C9.78395 6.10666 12.5442 5.55732 14.9428 6.54847C17.3413 7.53963 18.9056 9.87607 18.9062 12.4681C18.9023 16.0042 16.0342 18.8706 12.4931 18.8775ZM12.4931 8.307C10.1932 8.307 8.32871 10.1688 8.32871 12.4653C8.32871 14.7619 10.1932 16.6237 12.4931 16.6237C14.793 16.6237 16.6574 14.7619 16.6574 12.4653C16.6521 10.171 14.7908 8.31233 12.4931 8.307ZM19.156 7.3187C18.3307 7.31564 17.6637 6.64586 17.6652 5.8217C17.6667 4.99754 18.3362 4.33024 19.1616 4.33024C19.9869 4.33024 20.6564 4.99753 20.658 5.82169C20.6583 6.21931 20.5001 6.60072 20.2183 6.88162C19.9365 7.16252 19.5542 7.3198 19.156 7.3187Z" fill="white" />
+        </svg>
+      </div>
+      <div class="phone">
+        <p>Call Us</p>
+        <hr>
+        <p>972-453-09035</p>
+      </div>
+    </div>
+    <div class="address">
+      <p>Address</p>
+      <hr>
+      <p>1598 Pink St. #200
+        El Paso Country,
+        Texas 79924</p>
+    </div>
+    <div class="bottom">
+      <p class="credits">Archer & Olive 2021. All rights reserved</p>
+      <p>Terms of Use</p>
+      <p>Privacy Policy</p>
+    </div>
+  </footer>
+</body>
+<!-- partial -->
+  
+</body>
+</html>
